@@ -1,6 +1,7 @@
 from mean import *
 
 def test_ints():
+    """test the mean of integers"""
     num_list = [1,2,3,4,5]
     obs = mean(num_list)
     exp = 3
@@ -8,6 +9,7 @@ def test_ints():
 
 def test_zero():
     # This zero will pass
+    """Test mean of integers including 0"""
     num_list=[0,2,4,6]
     obs = mean(num_list)
     exp = 3
