@@ -18,7 +18,7 @@ def test_double():
     num_list=[1,2,3,4]
     obs = mean(num_list)
     exp = 2.5
-    assert obs == exp
+    assert obs != exp
 
 def test_long():
     big = 100000000
