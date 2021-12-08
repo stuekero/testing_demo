@@ -1,11 +1,13 @@
 from mean import *
 
+# tests the  mean of integers
 def test_ints():
     num_list = [1,2,3,4,5]
     obs = mean(num_list)
     exp = 3
     assert obs == exp
 
+# tests the zeros!
 def test_zero():
     num_list=[0,2,4,6]
     obs = mean(num_list)
