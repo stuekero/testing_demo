@@ -1,6 +1,7 @@
 from mean import *
 
 def test_ints():
+""" comment#1""" 
     num_list = [1,2,3,4,5]
     obs = mean(num_list)
     exp = 3
@@ -18,7 +19,7 @@ def test_double():
     obs = mean(num_list)
     exp = 2.5
     assert obs == exp
-
+"""comment #2"""
 def test_long():
     big = 100000000
     obs = mean(range(1,big))
