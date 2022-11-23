@@ -8,6 +8,7 @@ def test_ints():
     assert obs == exp
 
 def test_zero():
+    # This zero will pass
     """Test mean of integers including 0"""
     num_list=[0,2,4,6]
     obs = mean(num_list)
